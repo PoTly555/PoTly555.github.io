@@ -3,34 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manchester unitedy</title>
+    <title>My Portfolio</title>
     <style>
-        /* CSS styles can be added here */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
             text-align: center;
         }
-        .photo {
-            max-width: 100%;
-            height: auto;
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .project {
+            border: 1px solid #ccc;
             margin-bottom: 20px;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-
-<h1>Manchester unitedy</h1>
-
-<!-- Photo -->
-<h2>Antony</h2>
-<img class="photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLHJohWo3PG5XDBicWHlkMkZQMRd3ymiChoHmNGXh-IQ&s" alt="My Photo">
-
-<!-- Photo -->
-<h3>Elick ten Hag</h3>
-<img class="photo" src="https://media.cnn.com/api/v1/images/stellar/prod/231101135457-01-erik-ten-hag-struggling.jpg?c=original" alt="My Photo">
-
+    <header>
+        <h1>My favorite Team</h1>
+    </header>
+    <div class="container">
+        <h2>Player</h2>
+        <div class="project">
+            <h3>เดอะหมุน</h3>
+            <img class="photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLHJohWo3PG5XDBicWHlkMkZQMRd3ymiChoHmNGXh-IQ&s" alt="My Photo">
+        </div>
+        <div class="project">
+            <h3>ด็อกเตอร์</h3>
+            <img class="photo" src="https://images.teamtalk.com/content/uploads/2023/03/28151251/man-utd-striker-marcus-rashford.jpg" alt="My Photo">
+        </div>
+        <div class="project">
+            <h3>ซีดานรุ่น2</h3>
+            <img class="photo" src="https://media.cnn.com/api/v1/images/stellar/prod/231101135457-01-erik-ten-hag-struggling.jpg?c=original" alt="My Photo">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
 </body>
 </html>
